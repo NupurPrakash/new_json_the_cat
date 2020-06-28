@@ -15,9 +15,9 @@ request(`https://api.thecatapi.com/v1/breeds/search?name=${breedName}`, (error, 
     if (breed) {
       console.log("Description:", breed.description);
     } else {
-      console.log("Breed not found")
+      console.log("Breed not found");
     }
     
   }
 
-})
+});
